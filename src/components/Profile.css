@@ -1,0 +1,38 @@
+.profile{
+    background: rgb(254,255,255);
+    background: linear-gradient(284deg, rgba(254,255,255,1) 0%, rgba(57,189,208,0.9976365546218487) 61%, rgba(233,237,238,1) 100%);
+    
+    margin: 20px;
+}
+
+
+
+.profile:hover{
+    
+    box-shadow: 5px 10px 20px 5px rgba(107, 106, 106, 0.993);
+    transition: all 0.7s linear;
+}
+.profile-body{
+    padding: 3rem 0 !important;
+}
+.profile-text{
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+}
+.profile-bio{
+   color: rgb(24, 4, 139);
+   
+}
+
+.overflow{
+    overflow: hidden;
+
+}
+.profile-img-top{
+transition:all 0.2s ease-in-out ;
+height: 320px;
+}
+
+.profile-img-top:hover{
+    transform: scale(1.2);
+}
